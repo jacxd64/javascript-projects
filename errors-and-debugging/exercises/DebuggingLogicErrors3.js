@@ -26,9 +26,14 @@ if (crewStatus && computerStatus === 'green'){
    launchReady = false;
 }
 
+console.log(launchReady);
+
 // if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
 //    console.log('Liftoff!');
 // } else {
 //    console.log('Launch scrubbed.');
 // }
+
+//according to crewStatus and computerStatus, launch should be ready, but it does not check fuel
+//in the same conditional, and it is ran after the fuel check conditional, causing it to override the launchReady variable to true.

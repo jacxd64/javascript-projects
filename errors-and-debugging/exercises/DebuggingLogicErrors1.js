@@ -30,3 +30,5 @@ if (launchReady) {
 } else {
    console.log('Launch scrubbed.');
 }
+
+//shuttle should not have launched, conditionals are split into two seperate if else chains causing one check to override the other.

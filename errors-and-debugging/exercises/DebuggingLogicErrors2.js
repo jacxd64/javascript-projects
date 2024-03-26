@@ -31,3 +31,5 @@ if (fuelLevel >= 20000) {
 // } else {
 //    console.log('Launch scrubbed.');
 // }
+
+//launchReady should be false because of the fuel conditional
